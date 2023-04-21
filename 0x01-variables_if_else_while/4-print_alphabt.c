@@ -2,6 +2,7 @@
 
 /**
  * main - print alphabet in lower case,
+ * followed by a new line, except q and e
  * Return: 0
  */
 int main(void)
@@ -12,7 +13,7 @@ int main(void)
 	{
 		if (ud != 'e' && ud != 'q')
 		{
-			putchar(ud)
+			putchar(ud);
 		}
 		ud++;
 	}
